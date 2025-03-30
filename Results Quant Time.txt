@@ -1,0 +1,54 @@
+Safwan Sindeed
+ID-1312837
+Here are the results from running with time quanta 1 through 5:
+
+Results for Time Quantum: 1
+--------------------------------------------------
+CPU Utilization: 90.00%
+Throughput: 0.20 processes/unit time
+Average Waiting Time: 8.50 units
+Average Turnaround Time: 13.50 units
+Total Context Switches: 20
+
+Results for Time Quantum: 2
+--------------------------------------------------
+CPU Utilization: 94.50%
+Throughput: 0.20 processes/unit time
+Average Waiting Time: 7.50 units
+Average Turnaround Time: 12.75 units
+Total Context Switches: 11
+
+Results for Time Quantum: 3
+--------------------------------------------------
+CPU Utilization: 96.00%
+Throughput: 0.20 processes/unit time
+Average Waiting Time: 6.25 units
+Average Turnaround Time: 12.00 units
+Total Context Switches: 8
+
+Results for Time Quantum: 4
+--------------------------------------------------
+CPU Utilization: 96.50%
+Throughput: 0.20 processes/unit time
+Average Waiting Time: 5.75 units
+Average Turnaround Time: 12.00 units
+Total Context Switches: 7
+
+Results for Time Quantum: 5
+--------------------------------------------------
+CPU Utilization: 97.00%
+Throughput: 0.20 processes/unit time
+Average Waiting Time: 5.25 units
+Average Turnaround Time: 12.00 units
+Total Context Switches: 6
+
+Average of Quantum 1 through Quant 5:
+--------------------------------------------------
+Average CPU Utilization: 94.80%
+Average Throughput: 0.20 processes/unit time
+Average Waiting Time: 6.65 units
+Average Turnaround Time: 12.45 units
+Average Context Switches: 10.4 switches
+
+Analysis of results:
+This analysis shows that while larger time quanta generally improved performance metrics, the benefits plateaued around quantum=3, suggesting this would be the optimal setting for this particular set of processes on this computer.
